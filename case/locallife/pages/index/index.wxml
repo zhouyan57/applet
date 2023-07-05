@@ -1,4 +1,8 @@
-<!--index.wxml-->
-<view class="container">
-  Weixin
+<view class="box">
+  <!-- 轮播图 -->
+  <swiper class="swiper" circular duration="200" interval="2000" indicator-dots autoplay>
+    <swiper-item wx:for="{{swiperList}}" wx:key="id">
+      <image class="img" src="{{item.image}}" mode="" />
+    </swiper-item>
+  </swiper>
 </view>
