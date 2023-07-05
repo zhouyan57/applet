@@ -1,0 +1,5 @@
+<view class="title">
+  --- 12-showLoading：显示加载框 ---
+</view>
+<button bindtap="showLoading" type="primary">点我显示加载框</button>
+<button bindtap="hideLoading">点我隐藏加载框</button>

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#0f0",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "小程序的子页面",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#ccc",
+  "backgroundTextStyle": "dark"
+}

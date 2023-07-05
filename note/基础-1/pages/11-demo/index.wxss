@@ -1,0 +1,8 @@
+/* pages/11-demo/index.wxss */
+.circle {
+  width: 375rpx;
+  height: 375rpx;
+  border: 10rpx solid #ccc;
+  border-radius: 50%;
+  margin: 200rpx auto;
+}

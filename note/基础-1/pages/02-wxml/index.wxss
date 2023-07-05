@@ -1,0 +1,8 @@
+/* pages/02-wxml/index.wxss */
+.title {
+  text-align: center;
+}
+.myimg {
+  width: 200px;
+  height: 150px;
+}

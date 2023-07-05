@@ -1,0 +1,7 @@
+<view class="title">
+  --- 08-wxss 中的 import ---
+</view>
+<!-- import：在 wxss 中可以通过 import 导入外部的样式 -->
+<view class="mybox">
+  
+</view>

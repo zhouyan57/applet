@@ -1,0 +1,41 @@
+<!-- 学习 wxml 中常用的组件 -->
+<!-- 1. view 组件：相当于 html 中的 div -->
+<view class="title">
+  ------- 01-view组件 ---------
+</view>
+<view>
+  天若有情，天易老！
+</view>
+<view>
+  天若有情，天易老！
+</view>
+<!-- 2. text 组件：相当于 html 中的 span -->
+<view class="title">
+  ------- 02-text组件 ---------
+</view>
+<text>人间正道是沧桑！</text>
+<text>人间正道是沧桑！</text>
+<!-- 3. rich-text 组件：用来解析 html 字符串 '<h2>我是标题</h2>' -->
+<view class="title">
+  ------- 03-rich-text组件 ---------
+</view>
+<rich-text nodes="<h2>我是标题</h2>" />
+<!-- 4. button 组件：相当于 html 中的 button -->
+<view class="title">
+  ------- 04-button组件 ---------
+</view>
+<button>按钮</button>
+<button type="default">按钮</button>
+<button type="primary">按钮</button>
+<button type="warn">按钮</button>
+<button size="mini" type="default">按钮</button>
+<button size="mini" type="primary">按钮</button>
+<button size="mini" type="warn">按钮</button>
+<button plain type="default">按钮</button>
+<button plain type="primary">按钮</button>
+<button plain type="warn">按钮</button>
+<!-- 5. image组件：相当于 html 中的 img（默认宽高为：320 * 240） -->
+<view class="title">
+  ------- 05-image组件 ---------
+</view>
+<image class="myimg" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2F36c0f871-18e8-49a3-a3b8-5aad3cc699a5%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1680062419&t=78b5373771ae76f8ae21452b453fed73"></image>

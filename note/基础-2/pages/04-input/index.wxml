@@ -1,0 +1,7 @@
+<view class="title">
+  --- 4.0 使用 input 事件模拟双向绑定 ---
+</view>
+<view>
+  val: {{ val }}
+</view>
+<input type="text" value="{{ val }}" bindinput="myinput"/>

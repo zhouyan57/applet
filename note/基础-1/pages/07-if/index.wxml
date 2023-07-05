@@ -1,0 +1,21 @@
+<view class="title">
+  ---- 7.0 条件判断 ----
+</view>
+<view class="title">
+  ---- 7.1 wx:if ----
+</view>
+<view>
+  性别：
+    <!-- wx:if 隐藏元素是直接将元素从 dom 中移除掉 (v-if) -->
+    <text wx:if="{{ gender }}">男</text>
+    <text wx:else>女</text>
+</view>
+<view class="title">
+  ---- 7.2 hidden ----
+</view>
+<view>
+  性别： 
+  <!-- hidden 隐藏元素是通过 display: none （v-show） -->
+    <text hidden="{{ !gender }}">男</text>
+    <text hidden="{{ gender }}">女</text>
+</view>

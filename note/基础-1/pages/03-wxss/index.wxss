@@ -1,0 +1,11 @@
+/* pages/03-wxss/index.wxss */
+.subtitle {
+  font-size: 20px;
+  color: red;
+}
+
+.box {
+  width: 375rpx;
+  height: 200px;
+  background-color: #ccc;
+}

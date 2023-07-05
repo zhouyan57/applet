@@ -1,0 +1,7 @@
+<!-- 
+  需求：
+    1. 得到一圆圈
+    2. 点击圆圈时，切换背景颜色
+ -->
+<view bindtap="changeBgc" class="circle" style="background-color: {{bgc}};">
+</view>

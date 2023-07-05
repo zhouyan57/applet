@@ -1,0 +1,15 @@
+<view class="title">
+  ---- 8.0 block 组件 ----
+</view>
+<block wx:if="{{ isTop }}">
+  <view>T-恤</view>
+  <view>衬衫</view>
+  <view>外套</view>
+  <view>卫衣</view>
+</block>
+<block wx:else>
+  <view>长裤</view>
+  <view>裙子</view>
+  <view>丝袜</view>
+  <view>短裤</view>
+</block>

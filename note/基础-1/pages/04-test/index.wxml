@@ -1,0 +1,66 @@
+<view class="content">
+  <view class="item">
+    <view class="left">
+      <image src="https://img2.baidu.com/it/u=2091319979,2553107874&fm=253&fmt=auto&app=138&f=PNG?w=200&h=200" mode="" />
+    </view>
+    <view class="right">
+      <view class="name">
+        裘英俊
+      </view>
+      <view class="info">
+        天津卫视，相声广播主持人
+      </view>
+      <view class="info">
+        一个生于60后的90后无眼袋主持人
+      </view>
+    </view>
+  </view>
+  <view class="item">
+    <view class="left">
+      <image src="https://img2.baidu.com/it/u=2091319979,2553107874&fm=253&fmt=auto&app=138&f=PNG?w=200&h=200" mode="" />
+    </view>
+    <view class="right">
+      <view class="name">
+        裘英俊
+      </view>
+      <view class="info">
+        天津卫视，相声广播主持人
+      </view>
+      <view class="info">
+        一个生于60后的90后无眼袋主持人
+      </view>
+    </view>
+  </view>
+  <view class="item">
+    <view class="left">
+      <image src="https://img2.baidu.com/it/u=2091319979,2553107874&fm=253&fmt=auto&app=138&f=PNG?w=200&h=200" mode="" />
+    </view>
+    <view class="right">
+      <view class="name">
+        裘英俊
+      </view>
+      <view class="info">
+        天津卫视，相声广播主持人
+      </view>
+      <view class="info">
+        一个生于60后的90后无眼袋主持人
+      </view>
+    </view>
+  </view>
+  <view class="item">
+    <view class="left">
+      <image src="https://img2.baidu.com/it/u=2091319979,2553107874&fm=253&fmt=auto&app=138&f=PNG?w=200&h=200" mode="" />
+    </view>
+    <view class="right">
+      <view class="name">
+        裘英俊
+      </view>
+      <view class="info">
+        天津卫视，相声广播主持人
+      </view>
+      <view class="info">
+        一个生于60后的90后无眼袋主持人
+      </view>
+    </view>
+  </view>
+</view>

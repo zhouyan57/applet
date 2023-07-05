@@ -1,0 +1,5 @@
+/* pages/03-eventinput/index.wxss */
+input {
+  border: 1px solid #ccc;
+  padding: 10rpx;
+}

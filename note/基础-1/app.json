@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/12-demo/index",
+    "pages/11-demo/index",
+    "pages/10-bindevent/index",
+    "pages/09-for/index",
+    "pages/08-block/index",
+    "pages/07-if/index",
+    "pages/06-bind/index",
+    "pages/05-databind/index",
+    "pages/04-test/index",
+    "pages/03-wxss/index",
+    "pages/02-wxml/index",
+    "pages/01-firstpage/index",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

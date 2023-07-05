@@ -1,0 +1,8 @@
+<view class="title">
+  ----- 6.0 小程序中的双向绑定 -----
+</view>
+<view>
+  val: {{ val }}
+</view>
+<input type="text" value="{{val}}" />
+<input type="text" model:value="{{val}}" />

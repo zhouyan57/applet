@@ -1,0 +1,40 @@
+<view class="title">
+  ---- 9.0 列表渲染 ----
+</view>
+<view class="title">
+  ---- 9.1 默认渲染 ----
+</view>
+<view>
+  <view wx:for="{{ arr }}" wx:key="id">
+    {{ item.name }} --- {{ index }}
+  </view>
+</view>
+<view class="title">
+  ---- 9.2 设置别名 ----
+</view>
+<view>
+  <view wx:for="{{ arr }}" wx:key="id" wx:for-item="myitem" wx:for-index="myindex">
+    {{ myitem.name }} --- {{ myindex }}
+  </view>
+</view>
+<view class="title">
+  ---- 9.3 设置唯一标识 ----
+</view>
+<view>
+  <view wx:for="{{ myarr }}" wx:key="*this">
+    {{ item }} --- {{ index }}
+  </view>
+</view>
+<view class="title">
+  ---- 9.4 非主流用法 ----
+</view>
+<view>
+  <view wx:for="{{ 5 }}" wx:key="*this">
+    我是一个 view
+  </view>
+</view>
+<view>
+  <view wx:for="11111" wx:key="*this">
+    我是一个 view
+  </view>
+</view>

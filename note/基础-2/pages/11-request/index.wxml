@@ -1,0 +1,5 @@
+<view class="title">
+  --- 11-网络请求 ---
+</view>
+<button bindtap="getRequest" type="primary">发送 get 请求</button>
+<button bindtap="postRequest" type="primary">发送 post 请求</button>

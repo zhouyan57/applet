@@ -1,0 +1,13 @@
+<view class="title">
+  ---- 5.0 数据绑定 ----
+</view>
+<view>5.1 文本渲染</view>
+<view>
+  msg: {{ msg }}
+</view>
+<view>5.2 属性绑定</view>
+<image src="{{ src }}" mode="" />
+<view>5.3 三元表达式</view>
+<view>
+  性别： {{ gender ? '男': '女' }}
+</view>

@@ -1,0 +1,4 @@
+<view class="title">
+  ---  3.0 input 事件 ---
+</view>
+<input type="text" bindinput="myinput"/>

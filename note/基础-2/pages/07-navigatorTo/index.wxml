@@ -1,0 +1,4 @@
+<view class="title">
+  --- 7.0 编程式导航 ---
+</view>
+<button bindtap="to05">点我跳转到 05 页面</button>

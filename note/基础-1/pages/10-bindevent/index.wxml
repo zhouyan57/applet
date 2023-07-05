@@ -1,0 +1,13 @@
+<view class="title">
+  ---- 10.1 tap事件 ----
+</view>
+<button bindtap="tap1">点我有惊喜（一）</button>
+<button bind:tap="tap1">点我有惊喜（二）</button>
+<view class="title">
+  ---- 10.1 tap事件 - 案例 ----
+</view>
+<!-- 1. 在页面显示一个数字， 2，点击页面上的按钮，可以让数字加加 -->
+<view>
+  num: {{ num }}
+</view>
+<button bindtap="addOne" size="mini" type="primary">点我 num ++</button>

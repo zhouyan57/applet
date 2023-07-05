@@ -1,0 +1,2 @@
+/* pages/08-import/index.wxss */
+@import '../../style/index.wxss'

@@ -1,0 +1,4 @@
+<view class="title">
+  --- 13-showToast ---
+</view>
+<button bindtap="showToast">点我显示提示框</button>

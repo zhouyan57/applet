@@ -1,0 +1,15 @@
+<view>
+  1. 样式相关
+</view>
+<view class="title">
+   ---- 1.1 全局样式 -----
+</view>
+<view class="subtitle title">
+   ---- 1.2 局部样式 -----
+</view>
+<view>
+  2. rpx
+</view>
+<view class="box">
+  box
+</view>

@@ -1,0 +1,7 @@
+<view class="title">
+  --- 2.0 target 与 currentTarget 的区别 ---
+</view>
+<view class="father" bindtap="fn" data-name="f">
+  <view class="son" data-name="s">
+  </view>
+</view>

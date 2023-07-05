@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/06-navigator/index",
+    "pages/13-showToast/index",
+    "pages/12-showLoading/index",
+    "pages/11-request/index",
+    "pages/09-module/index",
+    "pages/10-tab1/index",
+    "pages/10-tab2/index",
+    "pages/10-tab3/index",
+    "pages/08-import/index",
+    "pages/07-navigatorTo/index",
+    
+    "pages/05-swiper/index",
+    "pages/04-input/index",
+    "pages/03-eventinput/index",
+    "pages/02-target/index",
+    "pages/01-eventparams/index",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小程序",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#ccc",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#ff2d4a",
+    "list": [
+      {
+        "iconPath": "/tabs/icon_home@3x.png",
+        "selectedIconPath": "/tabs/icon_home_active@3x.png",
+        "pagePath": "pages/10-tab1/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "/tabs/icon_category@3x.png",
+        "selectedIconPath": "/tabs/icon_category_active@3x.png",
+        "pagePath": "pages/10-tab2/index",
+        "text": "分类"
+      },
+      {
+        "iconPath": "/tabs/icon_me@3x.png",
+        "selectedIconPath": "/tabs/icon_me_active@3x.png",
+        "pagePath": "pages/10-tab3/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

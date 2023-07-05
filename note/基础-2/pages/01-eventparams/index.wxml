@@ -1,0 +1,14 @@
+<view class="title">
+  --- 1.0 事件方法传参 ---
+</view>
+<view>
+  需求：
+  1. 有一个数组，遍历显示到了页面上
+  2. 给每个遍历出来的元素添加一个点击事件
+  3. 点击时，要显示当前点击的元素中的内容
+</view>
+<view>
+  <view bindtap="mytap" data-name="{{ item.name }}" wx:for="{{ arr }}" wx:key="id">
+    {{ item.name }}
+  </view>
+</view>

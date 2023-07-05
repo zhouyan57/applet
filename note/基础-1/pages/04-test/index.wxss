@@ -1,0 +1,32 @@
+/* pages/04-test/index.wxss */
+.content {
+  padding: 0 36rpx;
+  background-color: #eee;
+}
+
+.item {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 36rpx 0 25rpx;
+}
+
+.item .left {}
+
+.item .left image {
+  width: 106rpx;
+  height: 106rpx;
+  border-radius: 50%;
+  margin-right: 35rpx;
+}
+
+.item .right {}
+
+.item .right .name {
+  font-size: 30rpx;
+  color: #ff6901;
+}
+
+.item .right .info {
+  font-size: 24rpx;
+  line-height: 40rpx;
+}

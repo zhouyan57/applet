@@ -1,0 +1,7 @@
+<view class="title">
+  --- 09-模块化 ---
+</view>
+<view wx:for="{{ arr }}" wx:key="id">
+  {{ item.name }}
+</view>
+<button bindtap="toTab1" type="primary">按钮：跳转到 tab1</button>

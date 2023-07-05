@@ -1,0 +1,7 @@
+<view class="title">
+  --- 6.0 navigator 组件 ---
+</view>
+<!-- 从 06 页面跳转到 05 页面 -->
+<navigator url="/pages/05-swiper/index?name=xjj&age=18">
+  跳转到05页面
+</navigator>

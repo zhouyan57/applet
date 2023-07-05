@@ -1,0 +1,24 @@
+<view class="title">
+  --- 5.0 轮播图组件 ---
+</view>
+<!-- 
+  autoplay：自动轮播
+  interval：轮播的间隔时间
+  duration：轮播切换的时间
+  circular：使用衔接动画
+  indicator-dots：显示指示点
+  注意点：
+    swiper 有自己的默认高度为 150 
+    如果要改变内容的高度，要先改变 swiper 的高度
+ -->
+<swiper autoplay interval="2000" duration="100" circular indicator-dots>
+  <swiper-item>
+    <view class="a">A</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="b">B</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="c">C</view>
+  </swiper-item>
+</swiper>
