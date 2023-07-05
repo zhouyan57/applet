@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="item" wx:for="{{ heroList }}" wx:key="heroName">
+    <image src="{{item.icon}}" />
+    <text>{{item.heroName}}</text>
+  </view>
+</view>
