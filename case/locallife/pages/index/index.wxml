@@ -5,4 +5,11 @@
       <image class="img" src="{{item.image}}" mode="" />
     </swiper-item>
   </swiper>
+  <!-- 九宫格 -->
+  <view class="grid">
+    <view class="item" wx:for="{{itemList}}" wx:key="id">
+      <image src="{{item.icon}}" mode="" />
+      <text>{{item.name}}</text>
+    </view>
+  </view>
 </view>

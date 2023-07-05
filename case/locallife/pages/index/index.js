@@ -1,7 +1,8 @@
 // index.js
 Page({
   data:{
-    swiperList: []
+    swiperList: [],
+    itemList: []
   },
   // 打开页面会执行生命周期函数 onLoad (相当于 vue 中的 created)
   onLoad() {
@@ -18,6 +19,15 @@ Page({
       },
       complete:() => {
         wx.hideLoading()
+      }
+    })
+    // 得到九宫格数据
+    wx.request({
+      url: 'https://applet-base-api-t.itheima.net/categories',
+      success: res => {
+        this.setData({
+          itemList: res.data
+        })
       }
     })
   }
