@@ -26,3 +26,23 @@
   width: 80rpx;
   height: 80rpx;
 }
+.bottom {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.left, .right {
+  width: 45%;
+  height: 150rpx;
+  border-radius: 10rpx;
+  line-height: 150rpx;
+  padding-left: 40rpx;
+  box-sizing: border-box;
+  color: #fff;
+}
+.left{
+  background-color: #f88487;
+}
+.right {
+  background-color: #94bee4;
+}

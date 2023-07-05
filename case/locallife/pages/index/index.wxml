@@ -12,4 +12,11 @@
       <text>{{item.name}}</text>
     </view>
   </view>
+  <!-- 底部 -->
+  <view class="bottom">
+    <view class="left">
+      商家推荐</view>
+    <view class="right">
+      交友论坛</view>
+  </view>
 </view>
