@@ -1,0 +1,13 @@
+<view class="content">
+<view class="img">
+  <image src="{{icon}}" />
+</view>
+  <view class="info">
+    <view>
+      英雄名称：{{heroName}}
+    </view>
+    <view>
+      英雄技能：{{skill}}
+    </view>
+  </view>
+</view>

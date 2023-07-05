@@ -1,0 +1,17 @@
+.content {
+  width: 80%;
+  background-color: #dddddd;
+  margin: 0 auto;
+  padding: 40rpx 0;
+}
+.img {
+  text-align: center;
+}
+.content image {
+width: 400rpx;
+height: 400rpx;
+}
+.info{
+  padding-left: 100rpx;
+  line-height: 50rpx;
+}

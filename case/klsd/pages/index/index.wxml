@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="box">
-  <view class="item" wx:for="{{ heroList }}" wx:key="heroName">
+  <view bindtap="toDetail" data-heroName="{{item.heroName}}" data-icon="{{item.icon}}"  data-skill="{{item.skill}}" class="item" wx:for="{{ heroList }}" wx:key="heroName">
     <image src="{{item.icon}}" />
     <text>{{item.heroName}}</text>
   </view>
