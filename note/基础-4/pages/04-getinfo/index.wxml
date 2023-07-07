@@ -8,3 +8,10 @@
 <view>
   <image src="{{profile.avatarUrl}}" mode="" />
 </view>
+<view>
+  4.2 获取昵称
+</view>
+<input type="nickname" bindchange="getInfo" value="{{profile.nickName}}"/>
+<view>
+  昵称：{{profile.nickName}}
+</view>

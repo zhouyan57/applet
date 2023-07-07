@@ -1,7 +1,8 @@
 Page({
   data:{
     profile:{
-      avatarUrl:'https://img1.baidu.com/it/u=4267384015,939236732&fm=253&fmt=auto&app=138&f=JPEG?w=575&h=500'
+      avatarUrl:'https://img1.baidu.com/it/u=4267384015,939236732&fm=253&fmt=auto&app=138&f=JPEG?w=575&h=500',
+      nickName:'Janeyy'
     }
   },
   // 获取微信的头像
@@ -21,5 +22,12 @@ Page({
         console.log(res);
       },
     });
+  },
+  // 获取微信的昵称
+  getInfo(ev){
+    console.log(ev.detail.value);
+    this.setData({
+      'profile.nickName':ev.detail.value
+    })
   }
 })
