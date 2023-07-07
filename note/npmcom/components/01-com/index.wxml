@@ -1,0 +1,6 @@
+<view>
+  1. 使用第三方包: miniprogram-computed
+</view>
+<view>firstname:{{firstname}}</view>
+<view>lastname:{{lastname}}</view>
+<view>fullname:{{fullname}}</view>
