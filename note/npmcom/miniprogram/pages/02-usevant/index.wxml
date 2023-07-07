@@ -6,3 +6,26 @@
 <van-button type="info">信息按钮</van-button>
 <van-button type="warning">警告按钮</van-button>
 <van-button type="danger">危险按钮</van-button>
+<view class="title">
+  -- 2. 使用 vant 中的 cell --
+</view>
+<van-cell-group custom-class="cell-group" inset>
+  <van-cell size="large" title="北京富力家园">
+    <text class="tags fail">审核失败</text>
+  </van-cell>
+  <van-cell title="房间号" value="1号楼1单元101室" border="{{ false }}" />
+  <van-cell title="业主" value="内容" border="{{ false }}" />
+</van-cell-group>
+<view class="title">
+  -- 2. 使用 vant 中的 swipercell --
+</view>
+<van-swipe-cell right-width="{{ 65 }}">
+  <van-cell-group>
+    <van-cell size="large" title="北京富力家园">
+      <text class="tags fail">审核失败</text>
+    </van-cell>
+    <van-cell title="房间号" value="1号楼1单元101室" border="{{ false }}" />
+    <van-cell title="业主" value="内容" border="{{ false }}" />
+  </van-cell-group>
+  <view slot="right">删除</view>
+</van-swipe-cell>
