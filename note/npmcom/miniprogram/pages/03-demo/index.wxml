@@ -1,6 +1,6 @@
 <van-swipe-cell right-width="{{ 65 }}">
   <van-cell-group inset>
-    <van-cell title="北京富力桃园" value="审核通过" />
+    <van-cell custom-class="mymargin" title="北京富力桃园" value="审核通过" />
     <van-cell title="房间号" value="1号楼" />
     <van-cell title="业主" value="xjj" />
   </van-cell-group>
