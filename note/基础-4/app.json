@@ -1,7 +1,8 @@
 {
     "pages": [
+      "pages/index/index",
       "pages/01-getapp/index",
-        "pages/index/index"
+      "pages/02-getcurrentpages/index"
     ],
     "window": {
         "backgroundTextStyle": "light",

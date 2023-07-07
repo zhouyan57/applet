@@ -2,3 +2,4 @@
 <view class="container">
   Weixin
 </view>
+<navigator url="/pages/01-getapp/index">去01页面</navigator>

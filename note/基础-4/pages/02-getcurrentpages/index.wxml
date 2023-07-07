@@ -1,0 +1,4 @@
+<view class="title">
+  -- 02 - getCurrentPages：获取页面栈 --
+</view>
+<button bindtap="getYMZ" type="primary">获取页面栈</button>
