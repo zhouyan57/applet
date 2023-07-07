@@ -1,0 +1,5 @@
+/* components/03-observers/index.wxss */
+input {
+  border: 1px solid #ccc;
+  padding: 5px;
+}

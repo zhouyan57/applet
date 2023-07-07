@@ -1,0 +1,3 @@
+<view class="box" style="background-color: rgb({{r}}, {{g}}, {{b}});">
+  组件中使用页面的生命周期函数
+</view>

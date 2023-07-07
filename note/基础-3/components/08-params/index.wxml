@@ -1,0 +1,8 @@
+<view>
+  11.1 属性绑定（页面向组件传参）
+</view>
+<view>num: {{ num }}</view>
+<view>
+  11.2 事件绑定（组件向页面传参）
+</view>
+<button type="primary" bindtap="passv">点我向页面传参</button>

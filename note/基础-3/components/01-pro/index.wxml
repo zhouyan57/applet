@@ -1,0 +1,29 @@
+<view>
+  属性1： data 属性
+</view>
+<view>
+  name: {{ name }}
+</view>
+<view>
+  age: {{ age }}
+</view>
+<view>
+  属性2： methods 属性
+  <!-- 
+    (页面中的方法是与 data 同级，组件中的方法应该放到 methods 属性中) 
+  -->
+</view>
+<button type="primary" bindtap="ageAdd">点我修改 age</button>
+<view>
+  属性3：properties 属性
+  <!-- 接收父组件传入的数据（类似于 vue 中的 props） -->
+</view>
+<view>
+  msg: {{ msg }}
+</view>
+<view>
+  num: {{ num }}
+</view>
+<view>
+  info: {{ info }}
+</view>

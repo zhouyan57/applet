@@ -1,0 +1,14 @@
+<view>
+  data: 属性
+</view>
+<view>
+  name: {{ name }}
+</view>
+<view>
+  properties: 属性
+</view>
+<view>
+  info: {{ info }}
+</view>
+<button type="primary" bindtap="getName">点我得到 name</button>
+<button type="primary" bindtap="getInfo">点我得到 info</button>

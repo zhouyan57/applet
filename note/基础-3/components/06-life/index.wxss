@@ -1,0 +1,7 @@
+/* components/06-life/index.wxss */
+.box {
+  width: 100%;
+  height: 400rpx;
+  border: 10px solid #ccc;
+  box-sizing: border-box;
+}

@@ -1,0 +1,10 @@
+<!-- <view>
+  <slot name="header"></slot>
+  <view>我是内容</view>
+  <view>我是底部</view>
+</view> -->
+<view>
+  <slot name="header"></slot>
+  <view>我是内容</view>
+  <slot name="footer"></slot>
+</view>

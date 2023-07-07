@@ -1,0 +1,4 @@
+<view class="title">
+  --- 页面生命周期 ---
+</view>
+<navigator url="/pages/index/index">去 index</navigator>

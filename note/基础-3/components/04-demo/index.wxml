@@ -1,0 +1,5 @@
+<view>n1: {{ n1 }}</view>
+<view>n2: {{ n2 }}</view>
+<view>sum: {{ sum }}</view>
+<button bindtap="addn1" type="primary">n1 + 1</button>
+<button bindtap="addn2" type="primary">n2 + 1</button>

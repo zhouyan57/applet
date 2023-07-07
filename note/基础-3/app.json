@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/03-usecom/index",
+    "pages/02-usecom/index",
+    "pages/01-lifecircle/index",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "globalcom": "/components/00-com/index",
+    "pro01": "/components/01-pro/index",
+    "diff02": "/components/02-different/index",
+    "observers03": "/components/03-observers/index",
+    "demo04": "/components/04-demo/index",
+    "life05": "/components/05-life/index",
+    "life06": "/components/06-life/index",
+    "slot07": "/components/07-slot/index",
+    "params08": "/components/08-params/index"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

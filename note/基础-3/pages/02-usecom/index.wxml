@@ -1,0 +1,38 @@
+<view class="title">
+  -- 02-使用组件 --
+</view>
+<view>
+  2.1 使用局部组件
+</view>
+<partcom />
+<partcom></partcom>
+<view>
+  2.2 使用全局组件
+</view>
+<globalcom />
+<globalcom></globalcom>
+<view class="title">
+  -- 03-组件中的属性 --
+</view>
+<pro01 msg="message" num="{{ 110 }}" info="{{ info }}"></pro01>
+<view class="title">
+  -- 04-组件中的 data 与 properties 的区别 --
+</view>
+<diff02 info="yjj"></diff02>
+<view class="title">
+  -- 05-侦听器 observers --
+</view>
+<observers03></observers03>
+<view class="title">
+  -- 06-侦听器练习 --
+</view>
+<demo04></demo04>
+<view class="title">
+  -- 07-组件的生命周期 --
+</view>
+<button bindtap="hide">隐藏组件</button>
+<life05 wx:if="{{ show }}"></life05>
+<view class="title">
+  -- 08-组件使用页面的生命周期 --
+</view>
+<life06></life06>

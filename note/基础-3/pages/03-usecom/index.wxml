@@ -1,0 +1,15 @@
+<view class="title">
+  -- 10 组件模板 --
+</view>
+<slot07>
+  <view slot="header">I'm header</view>
+  <view slot="footer">I'm footer</view>
+</slot07>
+<view class="title">
+  -- 11 组件与页面的通信 --
+</view>
+<params08 id="mycom" bindgetval="getval" num="{{ num }}"></params08>
+<view>
+  11.3 获取组件实例
+</view>
+<button bindtap="getCom" type="primary">获取组件实例</button>
