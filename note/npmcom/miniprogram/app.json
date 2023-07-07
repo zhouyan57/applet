@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/03-demo/index",
     "pages/02-usevant/index",
     "pages/01-usecom/index",
     "pages/index/index"
