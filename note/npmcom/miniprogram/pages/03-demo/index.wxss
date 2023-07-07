@@ -1,5 +1,6 @@
 page {
   background-color: #ccc;
+  --mycolor: pink;
 }
 .van-swipe-cell__right {
   background-color: #cc655e;
@@ -11,4 +12,14 @@ page {
 }
 .mymargin{
 margin-top: 20px !important;
+}
+
+/* css 变量 */
+.son {
+  width: 100px;
+  height: 100px;
+  background-color: var(--mycolor,green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

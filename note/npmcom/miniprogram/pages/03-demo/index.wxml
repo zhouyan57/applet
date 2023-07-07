@@ -8,3 +8,11 @@
     删除
   </view>
 </van-swipe-cell>
+<view class="title">
+  -- CSS变量 --
+</view>
+<view class="box">
+  <view class="son">
+    son
+  </view>
+</view>
