@@ -1,0 +1,10 @@
+<view class="title">
+  -- 4.0 获取用户信息 --
+</view>
+<view>
+  4.1 获取用户头像
+</view>
+<button open-type="chooseAvatar" bind:chooseavatar="chooseavatar" type="primary">获取微信头像</button>
+<view>
+  <image src="{{profile.avatarUrl}}" mode="" />
+</view>

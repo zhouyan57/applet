@@ -1,5 +1,6 @@
 {
     "pages": [
+      "pages/04-getinfo/index",
       "pages/03-storage/index",
       "pages/index/index",
       "pages/01-getapp/index",

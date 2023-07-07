@@ -1,0 +1,7 @@
+/* pages/04-getinfo/index.wxss */
+image{
+  display: flex;
+  margin: 10px auto;
+  width: 130px;
+  height: 130px;
+}
