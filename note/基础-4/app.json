@@ -1,5 +1,6 @@
 {
     "pages": [
+      "pages/03-storage/index",
       "pages/index/index",
       "pages/01-getapp/index",
       "pages/02-getcurrentpages/index"

@@ -1,0 +1,7 @@
+<view class="title">
+  -- 03-本地存储:storage --
+</view>
+<button bindtap="setStorage" type="primary">保存数据到本地</button>
+<button bindtap="getStorage" type="primary">取出本地数据</button>
+<button bindtap="removeStorage" type="primary">删除本地数据</button>
+<button bindtap="clearStorage" type="primary">清空本地数据</button>
