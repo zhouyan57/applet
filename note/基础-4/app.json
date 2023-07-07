@@ -1,24 +1,30 @@
 {
+  "pages": [
+    "pages/04-getinfo/index",
+    "pages/03-storage/index",
+    "pages/index/index",
+    "pages/01-getapp/index",
+    "pages/02-getcurrentpages/index"
+  ],
+  "subPackages": [{
+    "root": "good_pkg",
+    "name": "good_pkg",
     "pages": [
-      "pages/04-getinfo/index",
-      "pages/03-storage/index",
-      "pages/index/index",
-      "pages/01-getapp/index",
-      "pages/02-getcurrentpages/index"
-    ],
-    "subPackages": [{
-      "root": "good_pkg",
-      "name": "good_pkg",
-      "pages": [
-        "pages/list/index"
-      ]
-    }],
-    "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "Weixin",
-        "navigationBarTextStyle": "black"
-    },
-    "style": "v2",
-    "sitemapLocation": "sitemap.json"
+      "pages/list/index"
+    ]
+  }],
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "wifi",
+      "packages": ["good_pkg"]
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
 }
