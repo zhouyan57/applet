@@ -1,3 +1,11 @@
 page {
   background-color: #ccc;
 }
+.van-swipe-cell__right {
+  background-color: #cc655e;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+}
