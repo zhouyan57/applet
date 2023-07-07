@@ -6,6 +6,13 @@
       "pages/01-getapp/index",
       "pages/02-getcurrentpages/index"
     ],
+    "subPackages": [{
+      "root": "good_pkg",
+      "name": "good_pkg",
+      "pages": [
+        "pages/list/index"
+      ]
+    }],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
